@@ -1,5 +1,5 @@
 const TeleBot = require('telebot');
-const bot = new TeleBot('1926107154:AAHbVubcibbvut7R1PERxEen18J4oBTcLmg');
+const bot = new TeleBot('5625583933:AAG86PtLqYBv8ubDUVJf_rke6_ZUY_ckTXo');
 
 bot.on('/start', (msg) => msg.reply.text('Selamat datang di Mantul BOT, tempatnya mantul mantul...'));
 bot.on('/hello', (msg) => {
